@@ -1,0 +1,52 @@
+.apresentacao {
+    align-items: center;
+    display: flex;
+    padding-top: 2rem;
+    margin: 0 6rem;
+}
+
+.secao1_apresentacao {
+    align-items: center;
+    display: flex;
+    width: 60%;
+}
+
+.socialMidia_apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+}
+
+.socialMidia_apresentacao-link img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.sobre_apresentacao {
+    margin-left: 1rem;
+    width: 50%;
+}
+
+.sobre_apresentacao-titulo {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+.secao2_apresentacao {
+    width: 40%;
+}
+
+.projetoDestaque_apresentacao {
+    align-items: center;
+    display: flex;
+    height: 30rem;
+    justify-content: center;
+    border-radius: 20px;
+    background: url(../img/image-gallery.svg), #2e2e2e;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem;
+}
+

@@ -1,0 +1,28 @@
+.cabecalho {
+    align-items: center;
+    background: linear-gradient(180deg, #161616, #2e2e2e00);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalho h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.menu_cabecalho {
+    padding-right: 10rem;
+}
+
+.menu_cabecalho a {
+    color: #e7e8ec;
+    padding-right: 2rem;
+}
+
+.menu_cabecalho a:last-child {
+    padding-right: 0;
+}
+

@@ -1,0 +1,26 @@
+.contato {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.contato h4 {
+    font-size: 2.5rem;
+    width: 40%;
+}
+
+.contato p {
+    width: 30%;
+}
+
+.contato button {
+    background: #2e2e2e;
+    border: none;
+    border-radius: 10px;
+    color: #e7e8ec;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+}

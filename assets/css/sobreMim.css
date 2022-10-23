@@ -1,0 +1,33 @@
+.sobreMim {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+}
+
+.sobreMim_fotoFrancisco {
+    width: 50%;
+}
+
+.sobreMim_fotoFrancisco img {
+    border-radius: 20px;
+    height: 25rem;
+    margin-left: 4rem;
+    width: 25rem;
+}
+
+.sobreMim_textos {
+    padding: 2rem;
+    width: 50%;
+}
+
+.sobreMin_titulo {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+.sobreMim_textos p {
+    width: 60%;
+}

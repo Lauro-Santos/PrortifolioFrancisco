@@ -1,0 +1,11 @@
+.rodape {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.socialMidia_rodape-link {
+    width: 3rem;
+}

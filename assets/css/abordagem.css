@@ -1,0 +1,27 @@
+.abordagem {
+    background: #e7e8ec;
+    color: #161616;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.abordagem h3 {
+    font-size: 2rem;
+    margin-left: 5rem;
+    padding: 1.5rem;
+}
+
+.tabela_abordagem {
+    padding: 2rem;
+    padding-top: 0;
+    width: 100%;
+}
+
+.tabela_abordagem tr {
+    height: 12rem;
+}
+
+.tabela_abordagem tr td {
+    border-bottom: #161616;
+    width: 33.3%;
+}

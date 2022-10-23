@@ -1,0 +1,107 @@
+.slider_containner-projetos {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    width: 50%;
+}
+
+.content {
+    border-radius: 10px;
+    height: 25rem;
+    overflow-x: hidden;
+    width: 80%;
+}
+
+.slides {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 500%;
+}
+
+.slideR {
+    display: none;
+}
+
+.slide {
+    background: #2e2e2e;
+    border-radius: 10px;
+    height: 100%;
+    margin-right: 4rem;
+    transition: all 400ms;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    align-items: center;
+    display: flex;
+    background: #161616;
+    border-radius: 10px 10px 10px 10px;
+    height: 50%;
+    justify-content: center;
+    width: 90%;
+}
+
+.card a {
+    text-align: center;
+}
+
+.imagem {
+    width: 30%;
+}
+
+.descricao {
+    padding: 1.5rem;
+}
+
+.navigation {
+    align-items: center;
+    border-radius: 10px;
+    bottom: 70px;
+    display: flex;
+    height: 18px;
+    justify-content: space-between;
+    position: absolute;
+    left: 18%;
+    width: 24rem;
+}
+
+.navigation label {
+    border: 1.5px solid #e7e8ec;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 100%;
+    transition: all 400ms ease-in-out;
+    width: 20px;
+}
+
+.navigation label:hover {
+    background: #e7e8ec;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -24rem;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -48rem;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -72rem;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -96rem;
+}
