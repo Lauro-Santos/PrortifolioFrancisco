@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -20,6 +20,10 @@
 .menu_cabecalho a {
     color: #e7e8ec;
     padding-right: 2rem;
+}
+
+.menu_cabecalho a:hover {
+    color: #ffffff;
 }
 
 .menu_cabecalho a:last-child {

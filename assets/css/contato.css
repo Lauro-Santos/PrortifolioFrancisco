@@ -23,4 +23,9 @@
     color: #e7e8ec;
     margin-top: 2rem;
     padding: 1rem 2rem;
+    transition: all .5s;
+}
+
+.contato button:hover {
+    background: #6b6b6b;
 }

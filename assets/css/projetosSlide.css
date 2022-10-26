@@ -19,6 +19,7 @@
     display: flex;
     flex-wrap: nowrap;
     height: 100%;
+    position: relative;
     width: 500%;
 }
 
@@ -104,4 +105,11 @@
 
 #slide5:checked ~ .s1 {
     margin-left: -96rem;
+}
+
+.sombra {
+    background: linear-gradient(270deg, #161616 35%, rgba(22, 22, 22, 0) 54.33%);
+    height: 100%;
+    position: absolute;
+    width: 30%;
 }
