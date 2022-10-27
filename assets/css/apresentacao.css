@@ -39,12 +39,12 @@
 
 .sobre_apresentacao-titulo {
     font-weight: 400;
-    font-size: 55px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 55px;
 }
 
 .sobre_apresentacao p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     width: 80%;
 }
