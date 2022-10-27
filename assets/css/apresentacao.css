@@ -1,8 +1,7 @@
 .apresentacao {
     align-items: center;
     display: flex;
-    padding-top: 2rem;
-    margin: 0 6rem;
+    margin: 0 4rem;
 }
 
 .secao1_apresentacao {
@@ -14,14 +13,13 @@
 
 .socialMidia_apresentacao {
     display: flex;
-    background-color: #161616;
+    background-color: rgb(22, 22, 22);
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    bottom: 50;
-    left: 0.1rem;
+    left: -0.9rem;
     gap: 1rem;
-    height: 50%;
+    height: 30%;
 }
 
 .socialMidia_apresentacao-link img {
@@ -30,16 +28,25 @@
 }
 
 .sobre_apresentacao {
-    border-left: 4px solid #2e2d2d;
-    margin-left: 1rem;
-    padding-left: 2rem;
-    width: 50%;
+    border-left: 4px solid rgb(46, 45, 45);
+    padding-left: 3rem;
+    width: 90%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sobre_apresentacao-titulo {
     font-weight: 400;
-    font-size: 2rem;
-    line-height: 2.2rem;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.sobre_apresentacao p {
+    font-size: 25px;
+    line-height: 30px;
+    width: 80%;
 }
 
 .secao2_apresentacao {
@@ -58,3 +65,15 @@
     background-size: 5rem;
 }
 
+.projetoDestaque_apresentacao-avaliacao {
+    text-align: center;
+    width: 100%;
+}
+
+.projetoDestaque_apresentacao-avaliacao p {
+    font-size: 12px;
+}
+
+.projetoDestaque_apresentacao-avaliacao p>span {
+    font-size: 20px;
+}

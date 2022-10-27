@@ -3,8 +3,7 @@
     background: linear-gradient(180deg, #161616, #2e2d2d00);
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    position: absolute;
+    padding: 2rem 3rem;
     width: 100%;
 }
 

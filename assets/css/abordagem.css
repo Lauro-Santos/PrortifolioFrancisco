@@ -1,6 +1,7 @@
 .abordagem {
     background: #e7e8ec;
     color: #161616;
+    height: 100vh;
     padding-top: 2rem;
     width: 100%;
 }
@@ -18,7 +19,7 @@
 }
 
 .tabela_abordagem tr {
-    height: 12rem;
+    height: 10rem;
 }
 
 .tabela_abordagem tr td {
