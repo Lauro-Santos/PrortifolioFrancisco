@@ -2,6 +2,10 @@
     align-items: center;
     display: flex;
     margin: 0 4rem;
+    background: url("../img/backgound-inicial.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .secao1_apresentacao {
@@ -13,7 +17,7 @@
 
 .socialMidia_apresentacao {
     display: flex;
-    background-color: rgb(22, 22, 22);
+    background-color: var(--preto);
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
@@ -59,10 +63,11 @@
     height: 30rem;
     justify-content: center;
     border-radius: 20px;
-    background: url(../img/image-gallery.svg), #2e2d2d;
+    background: url(../img/image-gallery.svg), var(--cinza);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 5rem;
+    opacity: 0;
 }
 
 .projetoDestaque_apresentacao-avaliacao {

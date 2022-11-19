@@ -1,6 +1,21 @@
+@import url("cabecalho.css");
+@import url("apresentacao.css");
+@import url("abordagem.css");
+@import url("projetos.css");
+@import url("projetosSlide.css");
+@import url("sobreMim.css");
+@import url("contato.css");
+@import url("rodape.css");
+
+:root {
+    --preto: #161616;
+    --branco: #e7e8ec;
+    --cinza: #2e2d2d;
+}
+
 body {
-    background: #161616;
-    color: #e7e8ec;
+    background: var(--preto);
+    color: var(--branco);
     font-family: 'Montserrat', sans-serif;
     position: relative;
 }

@@ -10,18 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/stylePadrao.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/apresentacao.css">
-    <link rel="stylesheet" href="assets/css/abordagem.css">
-    <link rel="stylesheet" href="assets/css/projetos.css">
-    <link rel="stylesheet" href="assets/css/projetosSlide.css">
-    <link rel="stylesheet" href="assets/css/sobreMim.css">
-    <link rel="stylesheet" href="assets/css/contato.css">
-    <link rel="stylesheet" href="assets/css/rodape.css">
+
 </head>
 
 <body>
@@ -52,10 +46,8 @@
                 </div>
             </div>
             <div class="secao2_apresentacao">
-                <a href="#">
-                    <div class="projetoDestaque_apresentacao">
-                    </div>
-                </a>
+                <div class="projetoDestaque_apresentacao">
+                </div>
                 <div class="projetoDestaque_apresentacao-avaliacao">
                     <p><span>&#9733;&#9733;&#9733;&#9733;&#9733;</span> Com base em +50 feedbacks de clients</p>
                 </div>
@@ -65,107 +57,68 @@
             <h3>Abordagem</h3>
             <table class="tabela_abordagem">
                 <tr>
-                    <td>1-</td>
-                    <td>Além de um design</td>
-                    <td>texto aqui</td>
+                    <td> 1- Além de um design</td>
+                    <td>Não somente uma “arte bonita” mais também busco criar estrátegias utilizando o design para
+                        agregar valor ao projeto e solucionando seus problemas.</td>
                 </tr>
                 <tr>
-                    <td>2-</td>
-                    <td>Confiança</td>
-                    <td>texto aqui</td>
+                    <td>2- Confiança</td>
+                    <td>Quando começarmos o projeto seremos parceiros e iremos mantér tudo transparente entre nós
+                        infomando-lhe de todos os detalhes de seu projeto e recebendo seu feedback.</td>
                 </tr>
                 <tr>
-                    <td>3-</td>
-                    <td>Transparência</td>
-                    <td>texto aqui</td>
+                    <td>3- Transparência</td>
+                    <td>Já pensou se seus produtos e serviços tivessem uma apresentação capaz de cativar qualquer
+                        pessoa? iremos definir nossos movimentos tendo o foco total nas intenções que foram tomadas para
+                        atingir seus objetivos.</td>
                 </tr>
             </table>
         </section>
         <section class="projetos_containner">
             <div class="descricao_projetos">
-                <h3 class="sobre_projetos-titulo">Trabalhos<br><strong>selecionados</strong></h3>
+                <h3 class="sobre_projetos-titulo">Trabalhos<br>selecionados</h3>
                 <p>Esses são meus top 5 melhores trabalhos selecionados arisca, usando como criterio a complexidade,
                     desfechos e claro gosto pessoal.</p>
             </div>
-            <div class="slider_containner-projetos">
-                <div class="content">
-                    <div class="slides">
-                        <input type="radio" class="slideR" name="slide" id="slide1" checked>
-                        <input type="radio" class="slideR" name="slide" id="slide2">
-                        <input type="radio" class="slideR" name="slide" id="slide3">
-                        <input type="radio" class="slideR" name="slide" id="slide4">
-                        <input type="radio" class="slideR" name="slide" id="slide5">
-
-                        <article class="slide s1">
-                            <div class="card">
-                                <a href="#" target="_blank">
-                                    <img src="assets/img/image-gallery.svg" alt="no image" class="imagem">
-                                </a>
-                            </div>
-                            <div class="descricao">
-                                <h3>titulo</h3>
-                                <p>descrição aqui descrição aqui descrição aqui descrição aqui</p>
-                            </div>
-                        </article>
-                        <article class="slide">
-                            <div class="card">
-                                <a href="#" target="_blank">
-                                    <img src="assets/img/image-gallery.svg" alt="no image" class="imagem">
-                                </a>
-                            </div>
-                            <div class="descricao">
-                                <h3>titulo</h3>
-                                <p>descrição aqui descrição aqui descrição aqui descrição aqui</p>
-                            </div>
-                        </article>
-                        <article class="slide">
-                            <div class="card">
-                                <a href="#" target="_blank">
-                                    <img src="assets/img/image-gallery.svg" alt="no image" class="imagem">
-                                </a>
-                            </div>
-                            <div class="descricao">
-                                <h3>titulo</h3>
-                                <p>descrição aqui descrição aqui descrição aqui descrição aqui</p>
-                            </div>
-                        </article>
-                        <article class="slide">
-                            <div class="card">
-                                <a href="#" target="_blank">
-                                    <img src="assets/img/image-gallery.svg" alt="no image" class="imagem">
-                                </a>
-                            </div>
-                            <div class="descricao">
-                                <h3>titulo</h3>
-                                <p>descrição aqui descrição aqui descrição aqui descrição aqui</p>
-                            </div>
-                        </article>
-                        <article class="slide">
-                            <div class="card">
-                                <a href="#" target="_blank">
-                                    <img src="assets/img/image-gallery.svg" alt="no image" class="imagem">
-                                </a>
-                            </div>
-                            <div class="descricao">
-                                <h3>titulo</h3>
-                                <p>descrição aqui descrição aqui descrição aqui descrição aqui</p>
-                            </div>
-                        </article>
-                        <div class="sombra"></div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
                     </div>
-                    <div class="navigation">
-                        <label for="slide1"></label>
-                        <label for="slide2"></label>
-                        <label for="slide3"></label>
-                        <label for="slide4"></label>
-                        <label for="slide5"></label>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/img/francisco.png" alt="">
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
         <section class="sobreMim">
             <div class="sobreMim_fotoFrancisco">
-                <img src="assets/img/foto chico.jpg" alt="foto Francisco">
+                <img src="assets/img/francisco.png" alt="foto Francisco">
             </div>
             <div class="sobreMim_textos">
                 <h4 class="sobreMin_titulo">Quem sou EU?</h4>
@@ -183,14 +136,40 @@
         </section>
     </main>
     <footer class="rodape">
-        <a href="#" target="_blank" class="socialMidia_rodape-link">
-            <img src="assets/img/square-behance.svg" alt="behance">
-        </a>
-        <a href="https://www.instagram.com/faos_design/" target="_blank" class="socialMidia_rodape-link">
-            <img src="assets/img/square-instagram.svg" alt="instagram">
-        </a>
+        <div class="rodape__conteudo">
+            <div class="link__container">
+                <a href="#" target="_blank" class="socialMidia_rodape-link">
+                    <img src="assets/img/square-behance.svg" alt="behance">
+                </a>
+                <a href="https://www.instagram.com/faos_design/" target="_blank" class="socialMidia_rodape-link">
+                    <img src="assets/img/square-instagram.svg" alt="instagram">
+                </a>
+            </div>
+        </div>
     </footer>
-    <script src="js/slider.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
 </body>
 
 </html>

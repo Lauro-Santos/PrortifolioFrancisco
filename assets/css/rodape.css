@@ -1,9 +1,26 @@
 .rodape {
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape__conteudo {
+    border-bottom: 6px solid var(--cinza);
+    position: relative;
+    padding-bottom: 2rem;
+    width: 50%;
+}
+
+.link__container {
     align-items: center;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    padding-bottom: 2rem;
+    gap: 1rem;
+    background-color: var(--preto);
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    padding: 0 8px;
 }
 
 .socialMidia_rodape-link {

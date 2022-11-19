@@ -2,18 +2,15 @@
     align-items: center;
     background: linear-gradient(180deg, #161616, #2e2d2d00);
     display: flex;
-    justify-content: space-between;
-    padding: 2rem 3rem;
+    justify-content: center;
+    padding: 2rem 0;
     width: 100%;
+    gap: 40%;
 }
 
 .cabecalho h1 {
     font-size: 1.5rem;
     font-weight: 400;
-}
-
-.menu_cabecalho {
-    padding-right: 10rem;
 }
 
 .menu_cabecalho a {
