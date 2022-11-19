@@ -26,3 +26,8 @@
 .socialMidia_rodape-link {
     width: 3rem;
 }
+
+.rodape span {
+    color: var(--cinza);
+    margin: 4rem 0;
+}
