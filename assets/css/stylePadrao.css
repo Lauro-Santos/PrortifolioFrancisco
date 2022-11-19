@@ -13,6 +13,20 @@
     --cinza: #2e2d2d;
 }
 
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: var(--cinza);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--branco);
+    border-radius: 4px;
+    border: none;
+}
+
 body {
     background: var(--preto);
     color: var(--branco);
