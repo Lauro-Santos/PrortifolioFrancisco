@@ -1,28 +1,35 @@
 .abordagem {
-    background: var(--branco);
-    color: var(--preto);
+    color: var(--branco);
     padding: 4rem 0 8rem 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .abordagem h3 {
     font-size: 2rem;
-    margin-left: 5rem;
-    padding: 1.5rem;
+    margin: 40px 0;
 }
 
 .tabela_abordagem {
-    padding: 0 6rem 0 6rem;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
 }
 
 .tabela_abordagem tr {
     height: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
 }
 
 .tabela_abordagem tr td {
-    border-bottom: 1px solid var(--cinza);
-    padding-bottom: .5rem;
-    width: 33.3%;
-    margin: 0;
+    margin-bottom: 32px;
+}
+
+.tabela_abordagem tr td:first-child {
+    font-size: 23px;
 }

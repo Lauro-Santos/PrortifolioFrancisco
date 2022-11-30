@@ -1,84 +1,84 @@
 .apresentacao {
-    align-items: center;
-    display: flex;
-    margin: 0 4rem;
     background: url("../img/backgound-inicial.svg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.secao1_apresentacao {
-    align-items: center;
-    display: flex;
+    background-size: 250%;
+    background-position-x: 90%;
+    background-position-y: 90%;
+    text-align: center;
     position: relative;
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .socialMidia_apresentacao {
     display: flex;
-    background-color: var(--preto);
-    flex-direction: column;
-    justify-content: space-around;
     position: absolute;
-    left: -0.9rem;
-    gap: 1rem;
-    height: 30%;
-}
-
-.socialMidia_apresentacao-link img {
-    height: 2rem;
-    width: 2rem;
-}
-
-.sobre_apresentacao {
-    border-left: 4px solid rgb(46, 45, 45);
-    padding-left: 3rem;
-    width: 90%;
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    gap: 20px;
+    bottom: 5%;
+    left: calc(50% - 75px);
 }
+
+.socialMidia_apresentacao-link {
+    height: 30px;
+    width: 30px;
+}
+
+/*--------- svg start ----------*/
+
+.iconeBehance svg {
+    height: 30px;
+    width: 30px;
+}
+
+.iconeBehance svg path {
+    stroke: var(--branco);
+    fill: var(--branco);
+}
+
+.iconeBehance svg path:first-child {
+    fill: none;
+}
+
+/*--------- svg end ----------*/
+
+/*--------- svg start ----------*/
+
+.iconeInstagram svg {
+    height: 30px;
+    width: 30px;
+}
+
+.iconeInstagram svg path {
+    stroke: var(--branco);
+
+}
+
+.iconeInstagram svg path:first-child {
+    fill: var(--branco);
+}
+
+/*--------- svg end ----------*/
 
 .sobre_apresentacao-titulo {
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 24px;
+    margin-top: 25px;
 }
 
 .sobre_apresentacao p {
-    font-size: 20px;
-    line-height: 30px;
-    width: 80%;
-}
-
-.secao2_apresentacao {
-    width: 40%;
-}
-
-.projetoDestaque_apresentacao {
-    align-items: center;
-    display: flex;
-    height: 30rem;
-    justify-content: center;
-    border-radius: 20px;
-    background: url(../img/image-gallery.svg), var(--cinza);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 5rem;
-    opacity: 0;
+    width: 85%;
+    font-weight: 300;
+    margin: 33px auto 0 auto;
 }
 
 .projetoDestaque_apresentacao-avaliacao {
-    text-align: center;
-    width: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 180px 0 50px 0;
 }
 
 .projetoDestaque_apresentacao-avaliacao p {
-    font-size: 12px;
-}
-
-.projetoDestaque_apresentacao-avaliacao p>span {
-    font-size: 20px;
+    font-weight: 300;
 }

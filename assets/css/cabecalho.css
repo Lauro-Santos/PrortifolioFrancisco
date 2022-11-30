@@ -2,20 +2,32 @@
     align-items: center;
     background: linear-gradient(180deg, #161616, #2e2d2d00);
     display: flex;
-    justify-content: center;
-    padding: 2rem 0;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin-top: 50px;
     width: 100%;
-    gap: 40%;
+    height: 214px;
 }
 
 .cabecalho h1 {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     font-weight: 400;
+}
+
+.menu_cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .menu_cabecalho a {
     color: #e7e8ec;
-    padding-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.menu_cabecalho a.ativo {
+    border-bottom: 1px solid var(--branco);
 }
 
 .menu_cabecalho a:hover {
