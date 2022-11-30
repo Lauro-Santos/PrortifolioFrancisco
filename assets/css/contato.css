@@ -2,18 +2,18 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 80vh;
     justify-content: center;
     text-align: center;
 }
 
 .contato h4 {
-    font-size: 2.5rem;
-    width: 40%;
+    font-size: 1.7rem;
+    width: 90%;
 }
 
 .contato p {
-    width: 30%;
+    font-size: 1.07rem;
+    width: 90%;
 }
 
 .contato button {
@@ -21,7 +21,7 @@
     border: none;
     border-radius: 10px;
     color: #e7e8ec;
-    margin-top: 2rem;
+    margin: 2rem 0 2rem 0;
     padding: 1rem 2rem;
     transition: all .5s;
 }
