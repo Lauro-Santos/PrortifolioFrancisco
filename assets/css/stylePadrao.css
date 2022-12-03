@@ -2,7 +2,8 @@
 @import url("apresentacao.css");
 @import url("abordagem.css");
 @import url("projetos.css");
-@import url("projetosSlide.css");
+/*@import url("projetosSlide.css");*/
+@import url("slide.css");
 @import url("sobreMim.css");
 @import url("contato.css");
 @import url("rodape.css");
@@ -33,4 +34,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     position: relative;
+}
+
+nav {
+    color: var(--branco);
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    line-height: 15px;
+    -webkit-box-shadow: none;
 }
